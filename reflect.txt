@@ -1,0 +1,34 @@
+/**********************************************
+ Workshop 6
+ Course: JAC444 - Semester 4
+ Last Name: Tse
+ First Name: Chungon
+ ID: 154928188
+ Section: NAA
+ This assignment represents my own work in accordance with Seneca Academic Policy.
+ CHUNGON
+ Date: 17 Mar 2023
+ **********************************************/
+
+I think this workshop took me the most time so far but I expect even longer workshops. This one was just some text but the code behind took me so long.
+
+Why? I got to know javafx is associated with tons of classes for importing. You can have geometry, scene, and many things in scene, along with stage. This topic was already forgiving since it was just about a simple GridPane and elements on it. In other words, the tasks are almost entirely open-ended, and writing event handling was like writing JavaScript.
+
+In Task 1, on baby names, my pseudo code is this:
+
+1. Set out a GridPane and a Scene. Set out labels for year, gender, and name.
+2. Set out text fields for year, gender, and name for user input.
+3. Set out buttons for submit and exit
+4. In case the user has valid input, then the second Scene shows up which is a ranking of the baby name, or no ranking if the name doesn't appear in the text file related to the entered year. I have no splitting of string in this design, but still it reads user input and as long as a string contains a partial or an exact name, the correct name result shows.
+5. The user can search for another name or quit.
+
+In Task 2, on guess a number, my pseudo code is this:
+
+1. Set out GridPane, Scene, labels.
+2. Set out a text field for a number input.
+3. Set out buttons for submit and exit.
+4. Window colour changes depends on whether the input number is larger than or smaller than the generated random number.
+5. A correct guess returns a correct prompt.
+6. The user can guess a new number or quit.
+
+However, I think that says almost nothing about the actual code. I have such elements as tooltips (over cursor), input validation, use of keys for actions (exit, submit), parsing input, and even font elements. In task 1, while it is a must to enter year for text files, it is ok to enter no gender or type anything, and type anything in the name. It parses strings and puts them into the result. In task 2, I have similar coding to take care of text fields and buttons, among other things. It was a lot of work on validating input and exception handling.
